@@ -1,5 +1,7 @@
 import React from "react";
 import portrait from "../../images/portrait.JPG";
+import grant from "../../images/GrantEmerson1.jpg";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -22,7 +24,7 @@ function About() {
         <Col>
           <Media>
             <img
-              src={portrait}
+              src={grant}
               className="my-2"
               style={{ width: "100%" }}
               alt="Grant Emerson"
@@ -31,15 +33,25 @@ function About() {
         </Col>
         <Col md={8} xs={1}>
           <p>
-            Professional musician turned Full Stack Developer. I'm passionate
-            about connection and the power of computers to connect the world and
-            the internet since AOL was in everyone's home.
+            Passionate, empathetic musician turned web dev with a
+            Full-Stack Web Development Certificate from Vanderbilt University.
+            Experience in JS, React, HTML, CSS, SQL, Sequelize, NoSQL, MongoDB,
+            MERN, SPA utilizing a strong combination of collaboration,
+            communication, leadership, and results-driven problem-solving.
+            Proficiency in designing, building and maintaining websites from
+            conception to production. Experienced in graphic design for web
+            content and merchandise. I thrive in a fast-paced and diverse
+            environment prioritizing deadlines as well as deliverables.
           </p>
           <br></br>
           <p>
-            I own a social justice T-Shirt company, humangoodkind, which donates
-            a portion of proceeds to various progressive and equality minded
-            organizations.
+            I own a social justice T-Shirt company,{" "}
+            <a href="https://www.humangoodkind.com/">humangoodkind</a>, which
+            donates a portion of proceeds to various progressive and equality
+            minded organizations.
+          </p>
+          <p>
+            You can spot me around East Nashville most mornings getting miles in 🏃‍♂️
           </p>
         </Col>
       </Row>
