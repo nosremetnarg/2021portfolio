@@ -6,6 +6,8 @@ import About from "./About";
 import Projects from "./Projects";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+
+
 function App() {
   return (
     <Router>

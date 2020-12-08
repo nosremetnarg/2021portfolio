@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 
 ReactDOM.render(
