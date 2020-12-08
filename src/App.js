@@ -5,20 +5,28 @@ import Nav from './components/Nav';
 import About from './components/About/index';
 import Contact from './components/Contact/index';
 import Resume from './components/Resume/index';
+import Projects from './components/Projects/index';
+import Footer from './components/Footer';
 
 
+const style = {
+  color: 'black',
+  textDecoration: 'none'
+}
 
 function App() {
   return (
     <Router>
       <div className="page-container">
-        <h1>Grant Emerson</h1>
+        <h1><a href='/about' style={style}>Grant Emerson</a></h1>
         <Nav></Nav>
         <Switch>
-          <Route exact path='/about' component={About} />
+          <Route exact path='/about' component={About}  />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/resume' component={Resume} />
+          <Route exact path='/projects' component={Projects} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
