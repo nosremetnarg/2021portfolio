@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from './components/Nav';
 import About from './components/About/index';
 import Contact from './components/Contact/index';
+import Resume from './components/Resume/index';
 
 
 
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-
+          <Route exact path='/resume' component={Resume} />
         </Switch>
       </div>
     </Router>
