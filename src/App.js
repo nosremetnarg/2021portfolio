@@ -19,7 +19,7 @@ function App() {
             bg="dark"
             variant="dark"
           >
-            <ReactBootStrap.Navbar.Brand href="/" exact>
+            <ReactBootStrap.Navbar.Brand href="/" >
               Grant Emerson
             </ReactBootStrap.Navbar.Brand>
             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
