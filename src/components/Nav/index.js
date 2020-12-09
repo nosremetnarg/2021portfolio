@@ -15,7 +15,7 @@ function Navigation() {
     return (
       <Nav style={style} className="justify-content-center" activeKey="/about">
       <Nav.Item >
-          <Nav.Link href="/about" style={style2}>About</Nav.Link>
+          <Nav.Link href="/" style={style2}>About</Nav.Link>
       </Nav.Item>
       <Nav.Item >
           <Nav.Link href="/projects">Projects</Nav.Link>

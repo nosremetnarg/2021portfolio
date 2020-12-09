@@ -19,10 +19,10 @@ function App() {
   return (
     <Router>
       <div className="page-container">
-        <h1><a href='/about' style={style}>Grant Emerson</a></h1>
+        <h1><a href='/' style={style}>Grant Emerson</a></h1>
         <Nav></Nav>
         <Switch>
-          <Route exact path='/about' component={About}  />
+          <Route exact path='/' component={About}  />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/projects' component={Cards} />
