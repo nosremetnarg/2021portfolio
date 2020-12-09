@@ -51,8 +51,7 @@ function FullCarousel() {
         <Carousel.Caption>
           <h4 style={{ textAlign: "center" }}>Run Buddy</h4>
           <p>
-            a CMS style Tech-Blog used to solidify the concepts of ORM
-            (Object-Relational Mapping) and MVC (Model-View-Control)
+            A personal trainer website
           </p>
           <h4>
             <a href="https://github.com/nosremetnarg/run-buddy">Repository</a>

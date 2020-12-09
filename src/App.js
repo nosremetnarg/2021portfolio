@@ -26,7 +26,7 @@ function App() {
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/projects' component={Projects} />
         </Switch>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );

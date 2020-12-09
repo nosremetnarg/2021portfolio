@@ -20,8 +20,8 @@ function About() {
       <Row className="" id="about">
         <Col style={style}>About Me</Col>
       </Row>
-      <Row>
-        <Col>
+      <Row >
+        <Col className='aboutPage'>
           <Media>
             <img
               src={grant}
@@ -45,8 +45,7 @@ function About() {
           </p>
           <br></br>
           <p>
-            I own a social justice T-Shirt company,{" "}
-            <a href="https://www.humangoodkind.com/">humangoodkind</a>, which
+            I own a social justice T-Shirt company<span><a href="https://www.humangoodkind.com/">humangoodkind</a></span>, which
             donates a portion of proceeds to various progressive and equality
             minded organizations.
           </p>
