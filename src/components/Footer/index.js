@@ -4,7 +4,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const github = <FontAwesomeIcon icon={faGithub} />;
 
-
 var style = {
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
@@ -14,12 +13,8 @@ var style = {
   height: "200px",
   width: "100%",
 };
-
-var phantom = {
-  display: "block",
-  padding: "20px",
-  height: "60px",
-  width: "100%",
+const gitStyle = {
+  fontSize: "3rem",
 };
 
 function Footer() {
@@ -27,13 +22,11 @@ function Footer() {
     <footer style={style}>
       <p className="">
         <a
+          style={gitStyle}
           className="btn btn-outline-dark btn-social mx-1"
           href="https://github.com/nosremetnarg"
         >
-          <i
-            
-            
-          >{github}</i>
+          <i>{github}</i>
         </a>
       </p>
       <p>Copyright © nosremetnarg 2020</p>

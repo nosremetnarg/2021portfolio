@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../../images/portrait.JPG";
+// import portrait from "../../images/portrait.JPG";
 import grant from "../../images/GrantEmerson1.jpg";
 
 import Container from "react-bootstrap/Container";
