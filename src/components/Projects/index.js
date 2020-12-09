@@ -14,9 +14,7 @@ var style = {
   fontWeight: 100,
 };
 
-const photoStyle = {
-    objectFit: 'cover'
-}
+
 
 function FullCarousel() {
   const [index, setIndex] = useState(0);
@@ -33,7 +31,7 @@ function FullCarousel() {
       className="flex-row"
     >
       <Carousel.Item>
-        <img className="d-block w-100" src={aFT} alt="Second Slide" style={photoStyle}/>
+        <img className="d-block w-100 photo" src={aFT} alt="Second Slide" />
         <Carousel.Caption>
           <h4 style={{ textAlign: "center" }}>Ask Father Time</h4>
           <p>an advice column application</p>
@@ -49,7 +47,7 @@ function FullCarousel() {
         .
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={run} alt="First Slide" style={photoStyle}/>
+        <img className="d-block w-100 photo" src={run} alt="First Slide" />
         <Carousel.Caption>
           <h4 style={{ textAlign: "center" }}>Run Buddy</h4>
           <p>
@@ -66,7 +64,7 @@ function FullCarousel() {
         .
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={oyster} alt="Third Slide" style={photoStyle}/>
+        <img className="d-block w-100 photo" src={oyster} alt="Third Slide" />
         <Carousel.Caption>
           <h4 style={{ textAlign: "center" }}>News by the Map</h4>
           <p>an app for searching for top news by location</p>
@@ -82,7 +80,7 @@ function FullCarousel() {
         .
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={oyster} alt="Fourth Slide" style={photoStyle}/>
+        <img className="d-block w-100 photo" src={oyster} alt="Fourth Slide" />
         <Carousel.Caption>
           <h4 style={{ textAlign: "center" }}>Budget Tracker</h4>
           <p>

@@ -71,3 +71,7 @@ footer {
   right:0;
   padding: 2rem;
 }
+
+.photo {
+  object-fit: cover;
+}
