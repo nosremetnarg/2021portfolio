@@ -20,8 +20,8 @@ function About() {
       <Row className="" id="about">
         <Col style={style}>About Me</Col>
       </Row>
-      <Row >
-        <Col className='aboutPage'>
+      <Row className='aboutPage'>
+        <Col >
           <Media>
             <img
               src={grant}

@@ -39,7 +39,7 @@ function About() {
       <Row className="" id="contact">
         <Col style={style}>Lets Connect</Col>
       </Row>
-      <Row>
+      <Row className="contactPage">
         <Col>
           <Media>
             <img

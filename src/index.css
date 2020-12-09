@@ -1,36 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Open+Sans:wght@300;700&family=Roboto:wght@100&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Open+Sans:wght@300;700&family=Roboto:wght@100&family=Staatliches&display=swap");
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
 
-
 :root {
-  --primary: #E3C8C1;
-  --secondary: #D38975;
-  --tertiary: #DF9884;
-  --light: #DBB7AC;
-  --dark: #E3C8C1;
-  --darker: #3D2816;
+  --primary: #e3c8c1;
+  --secondary: #d38975;
+  --tertiary: #df9884;
+  --light: #dbb7ac;
+  --dark: #e3c8c1;
+  --darker: #3d2816;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
   box-sizing: border-box;
-
 }
 
 html,
 body {
   box-sizing: border-box;
   overflow-x: hidden;
-  height: 100%
+  height: 100%;
 }
 
 body {
@@ -40,9 +37,9 @@ body {
   max-width: 100%;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: var(--dar);
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 /* 
 .jumbotron {
@@ -58,20 +55,10 @@ body {
   align-items: center;
 }
 
-
-.Restcontainer {
-  padding: 9rem;
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .carousel-caption {
   position: initial;
   color: black;
 }
-
 
 /* .contact {
   background-image: url("assets/img/contact.png");
@@ -81,8 +68,11 @@ body {
 .projectsCards {
   overflow: auto;
 }
+.contactPage {
+  overflow: auto;
+}
 .resumeText {
-  margin-bottom:20rem
+  margin-bottom: 20rem;
 }
 
 h1,
@@ -91,7 +81,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -101,7 +91,7 @@ h1 {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  color: #5E7364;
+  color: #5e7364;
 }
 
 h2 {
@@ -131,7 +121,7 @@ p {
 }
 
 a {
-  color:rgb(209, 205, 205);
+  color: rgb(209, 205, 205);
 }
 
 a:hover {
@@ -148,7 +138,7 @@ button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -157,12 +147,12 @@ button {
 }
 
 button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 form {
@@ -180,7 +170,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -191,15 +181,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .container {
@@ -207,7 +197,10 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 0;
+  padding-bottom: 60px;
 }
 .aboutPage {
   overflow: auto;
@@ -283,23 +276,23 @@ textarea {
 }
 
 button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 .btn {
-  align-content: center
+  align-content: center;
 }
 
 a {
-  color: #5E7364;	
+  color: #5e7364;
   padding-left: 1rem;
 }
 
@@ -310,9 +303,9 @@ a {
 .row {
   padding: 1rem;
 }
-.profile-picture{
+.profile-picture {
   max-width: 400px;
-  height:auto;
+  height: auto;
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -330,13 +323,13 @@ main {
   padding: 20rem;
 }
 footer {
-  position: absolute;
+  position: sticky;
   background-color: white;
   width: 100%;
-  height: 2.5rem;
-  left:0;
-  bottom:0;
-  right:0;
+  height: 1rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
   padding: 2rem;
   z-index: 2;
 }
@@ -357,9 +350,9 @@ footer p {
 }
 
 @media (max-width: 700px) {
- .row {
-   display: contents;
-   justify-content: center
+  .row {
+    display: contents;
+    justify-content: center;
   }
 
   p {
@@ -370,22 +363,12 @@ footer p {
     display: flex;
     align-items: center;
   }
-  
-  .Restcontainer {
-    padding: 0;
-    width: auto;
-  }
-  
+
   .carousel-caption {
     position: initial;
     color: black;
   }
 
-  .container {
-    overflow-x: hidden;
-    padding: 0;
-    padding-bottom:60px;
-  }
   .contact {
     padding: 1rem;
   }
