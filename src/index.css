@@ -78,7 +78,9 @@ body {
   background-size: cover;
   padding: 10rem
 } */
-
+.projectsCards {
+  overflow: auto;
+}
 .resumeText {
   margin-bottom:20rem
 }
