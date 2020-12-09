@@ -7,6 +7,7 @@ import Contact from './components/Contact/index';
 import Resume from './components/Resume/index';
 import Projects from './components/Projects/index';
 import Footer from './components/Footer';
+import Cards from './components/Cards/index';
 
 
 const style = {
@@ -24,7 +25,7 @@ function App() {
           <Route exact path='/about' component={About}  />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/resume' component={Resume} />
-          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/projects' component={Cards} />
         </Switch>
         <Footer/>
       </div>
