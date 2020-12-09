@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
 var style = {
-    fontSize: "4rem",
+    fontSize: "3rem",
     padding: "3rem",
     textAlign: "center",
     fontWeight: 1
