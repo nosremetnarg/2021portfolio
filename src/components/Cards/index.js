@@ -39,7 +39,7 @@ function Cards() {
           <Card.Body>
             <Card.Title>Roysters NC</Card.Title>
             <Card.Text>A family owned Oyster farm in North Carolina.</Card.Text>
-            <a rel="noreferrer" target="_blank" href="http://roystersnc.com/">
+            <a rel="noreferrer" target="_blank" href="https://young-shelf-14995.herokuapp.com/">
               <Button variant="primary">Live Site</Button>
             </a>
             <a href="https://github.com/mallynnk/Pearls">Repository</a>
