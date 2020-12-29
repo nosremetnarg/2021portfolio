@@ -10,7 +10,7 @@ var style = {
   padding: "20px",
   left: "0",
   bottom: "0",
-  height: "200px",
+  height: "150px",
   width: "100%",
 };
 const gitStyle = {

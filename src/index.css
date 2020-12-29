@@ -71,6 +71,10 @@ body {
 .contactPage {
   overflow: auto;
 }
+
+.socialList {
+  height: 100%;
+}
 .resumeText {
   margin-bottom: 20rem;
 }

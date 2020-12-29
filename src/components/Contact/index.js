@@ -23,6 +23,7 @@ function About() {
 
   const style2 = {
     fontSize: "1.3rem",
+    height: "100%"
   };
   const iconStyle = {
     fontSize: "1.9rem",
@@ -50,7 +51,7 @@ function About() {
             />
           </Media>
         </Col>
-        <Col md={8} xs={1} style={style2}>
+        <Col md={8} xs={1} style={style2} className="socialList">
           <p>
             <i style={iconStyle}>{email} </i>
             <a href="mailto: grant.alex.emerson@gmail.com">
