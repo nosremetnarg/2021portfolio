@@ -193,9 +193,12 @@ textarea {
   overflow-x: auto;
   padding: 0;
   padding-bottom: 60px;
-  overflow: hidden;
+  overflow: auto;
 }
 .aboutPage {
+  overflow: auto;
+}
+.aboutText {
   overflow: auto;
 }
 .flex-row {
@@ -322,7 +325,7 @@ footer {
   z-index: 2;
   text-align: center;
   left: auto;
-  bottom: 30px;
+  bottom: 10px;
   height: auto;
   width: 100%;
 }
@@ -341,24 +344,28 @@ footer p {
   text-align: center;
   justify-content: center;
 }
-
-@media (max-width: 900px) {
+img.my-2 {
+  width: 100%;
+}
+/* .media img {
+    width: 15%;
+  } */
+/* @media (min-width: 900px) {
+  
+  img.my-2 {
+    width: 50%;
+  }
   .row {
     display: contents;
     justify-content: center;
   }
-
   p {
-    /* width: fit-content; */
     width: 75%;
-
   }
-
   .slide {
     display: flex;
     align-items: center;
   }
-
   .carousel-caption {
     position: initial;
     color: black;
@@ -367,12 +374,50 @@ footer p {
   .contact {
     padding: 1rem;
   }
-}
+} */
 
-@media (max-width: 770px) {
+/* @media (min-width: 770px) {
   .media img {
-  width: 25%;
-}
+    width: 25%;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+} */
 
+/* @media (min-width: 576px) {
+  .media img {
+    width: 5%;
+  }
+  p {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+} */
 
+@media (max-width: 746px) {
+  .my-2 {
+    width: 90%;
+  }
+  /* .aboutText {
+display: flex;
+flex-direction: column;
+  } */
+  .aboutPage {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  
+  }
+  .aboutText {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+  }
+
+  footer {
+    bottom: 0px;
+   
+  }
 }

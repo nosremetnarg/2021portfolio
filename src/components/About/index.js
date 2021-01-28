@@ -21,18 +21,19 @@ function About() {
         <Col style={style}>About Me</Col>
       </Row>
       <Row className='aboutPage'>
-        <Col >
+        <Col md={6} s={2}>
           <Media>
             <img
               src={grant}
               className="my-2"
-              style={{ width: "100%" }}
+              style={style}
               alt="Grant Emerson"
             />
           </Media>
         </Col>
-        <Col md={8} xs={1}>
-          <p>
+       
+        <Col md={6} s={2} className="aboutText">
+          <p >
             Passionate, empathetic musician turned web dev with a
             Full-Stack Web Development Certificate from Vanderbilt University.
             Experience in JS, React, HTML, CSS, SQL, Sequelize, NoSQL, MongoDB,
@@ -43,7 +44,6 @@ function About() {
             content and merchandise. I thrive in a fast-paced and diverse
             environment prioritizing deadlines as well as deliverables.
           </p>
-          <br></br>
           <p>
             I own a social justice T-Shirt company<span><a href="https://www.humangoodkind.com/">humangoodkind</a></span>, which
             donates a portion of proceeds to various progressive and equality
