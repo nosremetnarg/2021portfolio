@@ -5,13 +5,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const github = <FontAwesomeIcon icon={faGithub} />;
 
 var style = {
-  borderTop: "1px solid #E7E7E7",
-  textAlign: "center",
-  padding: "20px",
-  left: "0",
-  bottom: "0",
-  height: "150px",
-  width: "100%",
+  // borderTop: "1px solid #E7E7E7",
+  // textAlign: "center",
+  // padding: "0",
+  // left: "0",
+  // bottom: "0",
+  // height: "auto",
+  // width: "100%",
+  // position: 'absolute',
+
 };
 const gitStyle = {
   fontSize: "3rem",
@@ -20,7 +22,7 @@ const gitStyle = {
 function Footer() {
   return (
     <footer style={style}>
-      <p className="">
+      <p className="footer">
         <a
           style={gitStyle}
           className="btn btn-outline-dark btn-social mx-1"
