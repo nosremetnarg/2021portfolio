@@ -54,6 +54,7 @@ body {
 
 .projectsCards {
   overflow: auto;
+  margin-right: 10px;
 }
 .contactPage {
   overflow: auto;
@@ -185,13 +186,13 @@ textarea {
 
 .container {
   max-height: 90vh;
-  width: 85%;
+  width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   overflow-y: auto;
   overflow-x: auto;
-  padding: 0;
+  /* padding: 0; */
   padding-bottom: 60px;
   overflow: auto;
 }
@@ -260,7 +261,8 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 30%;
+  margin-right: 25px;
   /* text-align: center; */
 }
 

@@ -11,12 +11,13 @@ import shirt from "../../images/shirt1.png";
 import oyster from "../../images/Roysters.png";
 import deltaRaeRadio from "../../images/deltaRaeRadio.png";
 import noteTaker from "../../images/noteTaker.png";
+import natours from "../../images/natours.png";
 
 function Cards() {
   return (
     <Container className="projectsCards">
       <Row>
-        <Card style={{ width: "18rem" }}>
+        <Card >
           <Card.Img variant="top" src={aFT} />
           <Card.Body>
             <Card.Title>Ask Father Time</Card.Title>
@@ -34,7 +35,7 @@ function Cards() {
 
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card >
           <Card.Img variant="top" src={oyster} />
           <Card.Body>
             <Card.Title>Roysters NC</Card.Title>
@@ -45,7 +46,7 @@ function Cards() {
             <a href="https://github.com/mallynnk/Pearls">Repository</a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card >
           <Card.Img variant="top" src={run} />
           <Card.Body>
             <Card.Title>Run Buddy</Card.Title>
@@ -63,7 +64,7 @@ function Cards() {
       </Row>
       <Row>
         
-        <Card style={{ width: "18rem" }}>
+        <Card >
           <Card.Img variant="top" src={deltaRaeRadio} />
           <Card.Body>
             <Card.Title>Delta Raedio</Card.Title>
@@ -78,7 +79,7 @@ function Cards() {
             <a href="https://github.com/nosremetnarg/drRadio">Repository</a>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card >
           <Card.Img variant="top" src={noteTaker} />
           <Card.Body>
             <Card.Title>Note Taker</Card.Title>
@@ -95,6 +96,23 @@ function Cards() {
               <Button variant="primary">Live Site</Button>
             </a>
             <a href="https://github.com/nosremetnarg/noteTaker">Repository</a>{" "}
+          </Card.Body>
+        </Card>
+        <Card >
+          <Card.Img variant="top" src={natours} />
+          <Card.Body>
+            <Card.Title>Natours</Card.Title>
+            <Card.Text>
+              A travel site where users can book vacations.{" "}
+            </Card.Text>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://nosremetnarg.github.io/Natours/"
+            >
+              <Button variant="primary">Live Site</Button>
+            </a>
+            <a href="https://github.com/nosremetnarg/Natours">Repository</a>{" "}
           </Card.Body>
         </Card>
       </Row>
