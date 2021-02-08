@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 
 var style = {
     fontSize: "2rem",
-    padding: "20px",
+    padding: "15px",
     position: "sticky",
 }
 const style2 = {

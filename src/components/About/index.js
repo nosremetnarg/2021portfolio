@@ -10,7 +10,7 @@ import Media from "react-bootstrap/Media";
 function About() {
   const style = {
     fontSize: "4rem",
-    padding: "20px",
+    // padding: "20px",
     textAlign: "center",
     fontWeight: 100,
   };

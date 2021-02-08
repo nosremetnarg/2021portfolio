@@ -15,16 +15,16 @@ import {
 
 function About() {
   const style = {
-    fontSize: "4rem",
-    padding: "20px",
+    fontSize: "2.5rem",
+    // padding: "20px",
     textAlign: "center",
     fontWeight: 100,
   };
 
-  const style2 = {
-    fontSize: "1.3rem",
-    height: "100%"
-  };
+  // const style2 = {
+  //   fontSize: "1rem",
+  //   height: "50%"
+  // };
   const iconStyle = {
     fontSize: "1.9rem",
   };
@@ -51,14 +51,14 @@ function About() {
             />
           </Media>
         </Col>
-        <Col md={8} xs={1} style={style2} className="socialList">
+        <Col md={8} xs={1}  className="socialList">
           <p>
             <i style={iconStyle}>{email} </i>
             <a href="mailto: grant.alex.emerson@gmail.com">
               grant.alex.emerson@gmail.com
             </a>
           </p>
-          <br></br>
+          {/* <br></br> */}
           <p>
             <i style={iconStyle}>{github} </i>
             <a
@@ -69,7 +69,7 @@ function About() {
               github.com/nosremetnarg
             </a>
           </p>
-          <br></br>
+          {/* <br></br> */}
           <p>
             <i style={iconStyle}>{linkedIn} </i>
             <a
@@ -80,7 +80,7 @@ function About() {
               LinkedIn
             </a>
           </p>
-          <br></br>
+          {/* <br></br> */}
           <p>
             <i style={iconStyle}>{twitter} </i>
             <a
@@ -91,7 +91,7 @@ function About() {
               Twitter
             </a>
           </p>
-          <br></br>
+          {/* <br></br> */}
           <p>
             <i style={iconStyle}>{instagram} </i>
             <a
@@ -102,7 +102,7 @@ function About() {
               Instagram
             </a>
           </p>
-          <br></br>
+          {/* <br></br> */}
           <p>
             <i style={iconStyle}>{phone} </i>
             <a
