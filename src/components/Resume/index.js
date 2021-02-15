@@ -14,7 +14,7 @@ function Resume() {
     return (
         <Container id="resume">
             <Row style={style} className="justify-content-md-center" >
-            download my full  <a href="https://github.com/nosremetnarg/2021portfolio/raw/main/src/assets/Grant_Emerson_Resume.PDF" className="link">  resume</a>
+            download my full  <a href="https://github.com/nosremetnarg/2021portfolio/raw/main/src/assets/GrantEmersonResume2021ATS.PDF" className="link">  resume</a>
             </Row>
         </Container>
     );
